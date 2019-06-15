@@ -21,7 +21,7 @@ First of all, please download the [prepare](./prepare) file and unzip it under t
 
 The structure of [prepare](./prepare) file looks like:
 
-'''
+```
 |--prepare
 
 |----DAVIS_2017 #contains carousel video
@@ -43,7 +43,7 @@ The structure of [prepare](./prepare) file looks like:
 
 |----test_flow #contains optical flows generated with [flownet2](https://github.com/lmb-freiburg/flownet2)
 |------carousel
-'''
+```
 
 Run the following code:
 
@@ -51,19 +51,19 @@ $ cd mht
 $ python test_mht.py
 
 and it will generate three folders (vis_detections, outs and final_results)
-'''
+```
 |--mht
 |----vis_detections #detection bbox
 |----outs #build tree for each objects
 |----final results #tracking results
-'''
+```
 
 Or you can just run the main.py to see all the results including the final masks in $out$ file.
 
 $ cd mht
 $ python main.py
 
-###Citation
+### Citation
 If you use this code please cite:
 
 ```
