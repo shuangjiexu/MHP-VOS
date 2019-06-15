@@ -47,9 +47,8 @@ The structure of [prepare](./prepare) file looks like:
 
 Run the following code:
 
-$ cd mht
-
-$ python test_mht.py
+    $ cd mht
+    $ python test_mht.py
 
 and it will generate three folders (vis_detections, outs and final_results)
 ```
@@ -61,9 +60,8 @@ and it will generate three folders (vis_detections, outs and final_results)
 
 Or you can just run the main.py to see all the results including the final masks in $out$ file.
 
-$ cd mht
-
-$ python main.py
+    $ cd mht
+    $ python main.py
 
 ### Citation
 If you use this code please cite:
