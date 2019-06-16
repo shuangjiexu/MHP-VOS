@@ -1,5 +1,15 @@
 # MHP-VOS
-Code for CVPR 19 paper: MHP-VOS: Multiple Hypotheses Propagation for Video Object Segmentation
+Code for CVPR 19 paper
+
+**MHP-VOS: Multiple Hypotheses Propagation for Video Object Segmentation** <br />
+**[[Paper](https://arxiv.org/abs/1904.08141)] [[Representation](https://youtu.be/mnz6L5zpn5Q)] [[Video Results](https://youtu.be/69Z4olPnAxE)]** <br />
+
+### Pipeline
+<div align="center">
+  <img src="res/pipeline.png" width="750px" />
+</div>
+
+In this work, we first obtain bounding box proposals from Mask RCNN, and then construct the proposal propagation tree for each object with gating and scoring strategies. To avoid calculation explosion, an N-scan pruning strategy is applied to remove branches that are far from the best hypothesis. Through this recurrent process between tree building and branches pruning, we can obtain the best propagation track, and then obtain the segmentation mask for each object by mask propagation and merging.
 
 ### Introduction
 we have 5 parts as following:
