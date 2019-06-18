@@ -78,9 +78,9 @@ If you use this code please cite:
 
 ```
 @inproceedings{xu2019mhp,
-  	title={MHP-VOS: Multiple Hypotheses Propagation for Video Object Segmentation},
-  	author={Xu, Shuangjie and Liu, Daizong and Bao, Linchao and Liu, Wei and Zhou, Pan},
-  	booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+    title={MHP-VOS: Multiple Hypotheses Propagation for Video Object Segmentation},
+    author={Xu, Shuangjie and Liu, Daizong and Bao, Linchao and Liu, Wei and Zhou, Pan},
+    booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
     year={2019}
 }
 ```
